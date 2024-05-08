@@ -4,8 +4,8 @@ import java.io.IOException;
 
 public class FileCopy {
     public static void main(String[] args) {
-        String sourceFile = "source.txt"; // Path to the source file
-        String destinationFile = "destination.txt"; // Path to the destination file
+        String sourceFile = "input.txt"; // Path to the source file
+        String destinationFile = "output.txt"; // Path to the destination file
 
         try (
             FileInputStream inputStream = new FileInputStream(sourceFile);
@@ -26,3 +26,4 @@ public class FileCopy {
         }
     }
 }
+
